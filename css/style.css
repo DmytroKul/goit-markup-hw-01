@@ -1,5 +1,29 @@
 body {
   background: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a,
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #212121;
+  text-decoration: none;
+}
+
+/* HEader */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -9,6 +33,40 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  color: #2196f3;
+  margin-left: 220px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
 
+.nav-links li {
+  display: inline-block;
+  padding: 0px 50px;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: #2196f3;
+}
+
+.second-section {
+  width: 1600px;
+  height: 600px;
+  background-color: #2f303a;
+}
+
+.link-mt li {
+  display: inline-block;
+  padding: 0px 50px;
+}
+
+.link-mt li a {
+  transition: all 0.3s ease 0s;
+}
+
+.link-mt li a:hover {
   color: #2196f3;
 }

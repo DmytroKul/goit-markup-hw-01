@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,9 +14,10 @@
     <title>WebStudio</title>
   </head>
   <body>
+    <!-- header -->
     <header class="header">
-      <a class="logo" href="/">WebStudio</a>
-      <nav>
+      <nav class="navbar">
+        <a class="logo" href="/">WebStudio</a>
         <ul class="nav-links">
           <li>
             <a href="#">Studio</a>
@@ -29,100 +30,107 @@
           </li>
         </ul>
       </nav>
-      <div>
-        <ul class="link-mt">
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </div>
+
+      <ul class="link-mt">
+        <li>
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li>
+          <a href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
+      </ul>
     </header>
-    <div class="second-section">
-      <section>
-        <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-        <a href="#">Request our service</a>
-      </section>
-    </div>
-    <div>
-      <section>
-        <ul>
-          <li>
-            <h2>ATTENTION TO DETAILS</h2>
-            <p>
-              We go into all the details and processes of your business to
-              develop a customized solution.
-            </p>
-          </li>
-          <li>
-            <h2>PUNCTUALITY</h2>
-            <p>
-              With us, you can feel safe and secure. An important principle of
-              the company: respect your time and respect the agreed deadlines.
-            </p>
-          </li>
-          <li>
-            <h2>PLANNING</h2>
-            <p>
-              You will be able to observe and participate in every phase of
-              solution development and implementation.
-            </p>
-          </li>
-          <li>
-            <h2>mODERN TECHNOLOGIES</h2>
-            <p>
-              We use innovative tools to solve assigned tasks. It's time to
-              simplify work processes.
-            </p>
-          </li>
-        </ul>
-        <h3>What we do</h3>
-        <ul>
-          <li>
-            <img width="370" src="./photo/box 1.png" alt="box 1" />
-          </li>
-          <li><img src="./photo/box 2.png" alt="box 2" /></li>
-          <li><img src="./photo/box 3.png" alt="box 3" /></li>
-        </ul>
-      </section>
-    </div>
-    <div>
-      <section>
-        <h3>Our Team</h3>
-        <ul>
-          <li>
-            <img width="270" src="./photo/img.jpg" alt="Игорь Демьяненко" />
-            <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
-          </li>
-          <li>
-            <img width="270" src="./photo/img (2).jpg" alt="Ольга Репина" />
-            <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
-          </li>
-          <li>
-            <img width="270" src="./photo/img 3.jpg" alt="Николай Тарасов" />
-            <h3>Николай Тарасов</h3>
-            <p>Marketing</p>
-          </li>
-          <li>
-            <img width="270" src="./photo/img (4).jpg" alt="Михаил Ермаков" />
-            <h3>Михаил Ермаков</h3>
-            <p>UI Designer</p>
-          </li>
-        </ul>
-      </section>
-    </div>
+
+    <!-- first -->
+
+    <section class="EFFECTIVE">
+      <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+      <button type="button" class="Request_service">Request our service</button>
+    </section>
+
+    <!-- seconnd -->
+
+    <section>
+      <h2 class="visually-hidden">it has to be hidden</h2>
+      <ul>
+        <li>
+          <h3>ATTENTION TO DETAILS</h3>
+          <p>
+            We go into all the details and processes of your business to develop
+            a customized solution.
+          </p>
+        </li>
+        <li>
+          <h3>PUNCTUALITY</h3>
+          <p>
+            With us, you can feel safe and secure. An important principle of the
+            company: respect your time and respect the agreed deadlines.
+          </p>
+        </li>
+        <li>
+          <h3>PLANNING</h3>
+          <p>
+            You will be able to observe and participate in every phase of
+            solution development and implementation.
+          </p>
+        </li>
+        <li>
+          <h3>mODERN TECHNOLOGIES</h3>
+          <p>
+            We use innovative tools to solve assigned tasks. It's time to
+            simplify work processes.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- third -->
+    <section>
+      <h3>What we do</h3>
+      <ul>
+        <li>
+          <img width="370" src="./images/box 1.jpg" alt="box 1" />
+        </li>
+        <li><img width="370" src="./images/box 2.jpg" alt="box 2" /></li>
+        <li><img width="370" src="./images/box 3.jpg" alt="box 3" /></li>
+      </ul>
+    </section>
+
+    <!-- our team -->
+
+    <section>
+      <h2>Our Team</h2>
+      <ul>
+        <li>
+          <img width="270" src="./images/img.jpg" alt="Игорь Демьяненко" />
+          <h3>Игорь Демьяненко</h3>
+          <p>Product Designer</p>
+        </li>
+        <li>
+          <img width="270" src="./images/img (2).jpg" alt="Ольга Репина" />
+          <h3>Ольга Репина</h3>
+          <p>Frontend Developer</p>
+        </li>
+        <li>
+          <img width="270" src="./images/img 3.jpg" alt="Николай Тарасов" />
+          <h3>Николай Тарасов</h3>
+          <p>Marketing</p>
+        </li>
+        <li>
+          <img width="270" src="./images/img (4).jpg" alt="Михаил Ермаков" />
+          <h3>Михаил Ермаков</h3>
+          <p>UI Designer</p>
+        </li>
+      </ul>
+    </section>
+
     <footer>
       <a href="/">WebStudio</a>
-      <address>
-        695 Park Ave, New York, NY 10065,<br />
-        United States
-      </address>
-      <a href="tel:+380961111111">+38 096 111 11 11</a>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <address>695 Park Ave, New York, NY 10065, United States</address>
+      <ul>
+        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      </ul>
     </footer>
   </body>
 </html>

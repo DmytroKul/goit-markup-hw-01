@@ -1,6 +1,7 @@
 body {
   background: #fff;
   font-family: "Roboto", sans-serif;
+  width: 100%;
 }
 
 * {
@@ -26,6 +27,12 @@ button {
   align-items: center;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .logo {
   text-decoration: none;
   font-style: normal;
@@ -38,6 +45,8 @@ button {
   margin-top: 25px;
   margin-bottom: 25px;
 }
+.nav-links {
+}
 
 .nav-links li {
   display: inline-block;
@@ -46,16 +55,25 @@ button {
 
 .nav-links li a {
   transition: all 0.3s ease 0s;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
 }
 
 .nav-links li a:hover {
   color: #2196f3;
 }
 
-.second-section {
-  width: 1600px;
-  height: 600px;
-  background-color: #2f303a;
+.link-mt li a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .link-mt li {
@@ -69,4 +87,33 @@ button {
 
 .link-mt li a:hover {
   color: #2196f3;
+}
+
+.EFFECTIVE {
+}
+
+/* first section */
+.second-section {
+  display: block;
+  background-position: center;
+  background-size: cover;
+
+  width: 1600px;
+  height: 600px;
+  background-color: #2f303a;
+}
+
+/* Seconns section */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }

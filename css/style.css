@@ -25,6 +25,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 1600px;
 }
 
 .navbar {
@@ -89,18 +90,41 @@ button {
   color: #2196f3;
 }
 
-.EFFECTIVE {
-}
-
 /* first section */
-.second-section {
+
+.EFFECTIVE {
   display: block;
   background-position: center;
   background-size: cover;
-
   width: 1600px;
   height: 600px;
   background-color: #2f303a;
+}
+
+.tittle {
+  text-align: center;
+  padding-top: 200px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.request_service {
+  margin: 0 auto;
+  display: block;
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: #4676d7;
+  color: #fff;
+  padding: 20px 5px;
+  font-size: 16px;
 }
 
 /* Seconns section */
@@ -116,4 +140,15 @@ button {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.about-us {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  text-decoration: none;
+}
+
+.section-two {
+  margin-top: 95px;
 }

@@ -23,7 +23,6 @@ a {
   align-items: center;
   width: 1600px;
   height: 80px;
-  margin-left: 215px;
 }
 
 .navbar {
@@ -41,6 +40,7 @@ a {
   letter-spacing: 0.03em;
   color: #2196f3;
   text-align: center;
+  margin-left: 215px;
 }
 .logo-color {
   color: #000000;
@@ -69,7 +69,7 @@ a {
   color: #2196f3;
 }
 .contacts-link {
-  margin-right: 430px;
+  margin-right: 215px;
 }
 
 .contacts-link li a {
@@ -128,8 +128,12 @@ a {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #fff;
-  padding: 20px 5px;
   font-size: 16px;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
 }
 
 /* Seconns section */

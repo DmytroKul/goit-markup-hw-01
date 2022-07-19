@@ -72,7 +72,7 @@ a {
   color: #2196f3;
 }
 
-.link-mt li a {
+.contacts-link li a {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -80,16 +80,16 @@ a {
   letter-spacing: 0.02em;
 }
 
-.link-mt li {
+.contacts-link li {
   display: inline-block;
   padding: 0px 50px;
 }
 
-.link-mt li a {
+.contacts-link li a {
   transition: all 0.3s ease 0s;
 }
 
-.link-mt li a:hover {
+.contacts-link li a:hover {
   color: #2196f3;
 }
 
@@ -102,7 +102,6 @@ a {
   width: 1600px;
   height: 600px;
   background-color: #2f303a;
-  margin-bottom: 95px;
 }
 
 .tittle {
@@ -147,9 +146,15 @@ a {
   overflow: hidden;
 }
 
+.background {
+  background: #e5e5e5;
+  width: 1600px;
+}
+
 .section-two {
   margin: 0px 215px;
-  margin-bottom: 95px;
+
+  padding-top: 95px;
 }
 
 .about-us {
@@ -188,4 +193,145 @@ a {
 /* third-section */
 
 .third-section {
+  margin: 0px 215px;
+}
+
+.title-shirt {
+  text-align: center;
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding-top: 95px;
+}
+
+.title-shirt-images {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 95px;
+}
+
+/* our  team */
+
+.our-team {
+  background-color: #f5f4fa;
+  width: 1600px;
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+
+.section-four {
+}
+
+.title-four {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+}
+
+.our-team-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box-place {
+  background-color: #fff;
+  width: 270px;
+  height: 368px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.title-uor-team {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.paragraph-our-team {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* footer */
+.footer {
+  height: 250px;
+  width: 1600px;
+  background: #2f303a;
+}
+.logo-footer-span {
+  color: #fff;
+}
+.logo-footer {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 2157px;
+}
+
+.address {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2208px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.contact-footer {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2238px;
+  list-style-type: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #acacb0;
 }

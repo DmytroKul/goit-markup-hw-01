@@ -1,6 +1,6 @@
 body {
   background: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   width: 100%;
 }
 
@@ -11,9 +11,8 @@ body {
 }
 
 li,
-a,
-button {
-  font-family: "Roboto", sans-serif;
+a {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: #212121;
@@ -46,6 +45,10 @@ button {
   margin-top: 25px;
   margin-bottom: 25px;
 }
+.logo-color {
+  color: #000000;
+}
+
 .nav-links {
 }
 
@@ -99,6 +102,7 @@ button {
   width: 1600px;
   height: 600px;
   background-color: #2f303a;
+  margin-bottom: 95px;
 }
 
 .tittle {
@@ -120,8 +124,9 @@ button {
   display: block;
   appearance: none;
   border: 0;
-  border-radius: 5px;
-  background: #4676d7;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   color: #fff;
   padding: 20px 5px;
   font-size: 16px;
@@ -142,6 +147,11 @@ button {
   overflow: hidden;
 }
 
+.section-two {
+  margin: 0px 215px;
+  margin-bottom: 95px;
+}
+
 .about-us {
   display: flex;
   justify-content: space-between;
@@ -149,6 +159,33 @@ button {
   text-decoration: none;
 }
 
-.section-two {
-  margin-top: 95px;
+.about-us li {
+  list-style-type: none;
+}
+
+.about-tittle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.about-paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  width: 270px;
+  height: 75px;
+}
+
+/* third-section */
+
+.third-section {
 }

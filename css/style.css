@@ -11,8 +11,6 @@ body {
   --primary-bg-color: #f5f5f5;
 }
 .main {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 * {
@@ -36,10 +34,13 @@ a {
 .header {
 }
 
-.line-block {
+.conteiner-header {
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   align-items: center;
   height: 80px;
+  width: 1200px;
 }
 
 .navbar {
@@ -56,8 +57,6 @@ a {
   letter-spacing: 0.03em;
   color: #2196f3;
   text-align: center;
-  margin-left: 215px;
-  margin-right: 95px;
 }
 .logo-color {
   color: #000000;
@@ -65,6 +64,7 @@ a {
 
 .nav-links {
   display: flex;
+  margin-left: 93px;
 }
 
 .nav-links li {
@@ -91,7 +91,8 @@ a {
 
 .contacts-link {
   display: flex;
-  margin-left: 370px;
+  margin-left: 344px;
+
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -122,19 +123,18 @@ a {
 /* first section */
 
 .EFFECTIVE {
-  display: block;
-  background-position: center;
-  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
   width: 1600px;
   height: 600px;
   background-color: #2f303a;
 }
 
-.tittle {
+.tittle-EFFECTIVE {
   text-align: center;
   padding-top: 200px;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 44px;
   line-height: 60px;
   text-align: center;
@@ -166,6 +166,15 @@ a {
 
 /* Seconns section */
 
+.conteiner-about {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 90px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -179,22 +188,8 @@ a {
   overflow: hidden;
 }
 
-.background {
-  background: #e5e5e5;
-  width: 1600px;
-}
-
-.section-two {
-  margin: 0px 215px;
-
-  padding-top: 95px;
-}
-
-.about-us {
+.about-us-list {
   display: flex;
-  flex-wrap: wrap;
-  text-align: left;
-  text-decoration: none;
 }
 
 .about-us li {
@@ -210,9 +205,10 @@ a {
   text-transform: uppercase;
   color: #212121;
   margin-bottom: 10px;
+  padding-left: 15px;
 }
 
-.about-paragraph {
+.about-text {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -221,12 +217,26 @@ a {
   color: #757575;
   width: 270px;
   height: 75px;
+  padding-left: 15px;
 }
 
 /* third-section */
+.conteiner-about-company {
+  width: 1200px;
+  height: 98px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 94px;
+}
 
-.third-section {
-  margin: 0px 215px;
+.conteiner-about {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .title-shirt {
@@ -249,67 +259,21 @@ a {
   padding-bottom: 95px;
 }
 
-.box-one {
-  width: 370px;
-  height: 294px;
-  box-shadow: 3px 3px rgb(175, 151, 151), -1em 0 0.4em rgb(100, 100, 86);
-  transition: all ease 1s;
-}
-.box-one:hover {
-  transform: rotate(360deg);
-}
-
-.box-two {
-  width: 370px;
-  height: 294px;
-  box-shadow: 5px 5px 5px black;
-  transition: all ease 1s;
-}
-
-.box-two:hover {
-  -webkit-animation: moving-image 2s 1;
-}
-
-@-webkit-keyframes moving-image {
-  from {
-    -webkit-transform: rotate(0deg) scale(1);
-  }
-  to {
-    -webkit-transform: rotate(360deg) scale(1.5);
-  }
-}
-
-.box-three {
-  width: 370px;
-  height: 294px;
-  box-shadow: -1em 0 0.4em rgb(155, 155, 128);
-}
-
-.box-three:hover {
-  -webkit-animation: moving-image 2s 1;
-}
-@-webkit-keyframes moving-image {
-  from {
-    -webkit-transform: rotate(0deg) scale(1);
-  }
-  to {
-    -webkit-transform: rotate(360deg) scale(1.3);
-  }
-}
-
 /* our  team */
+
+.conteiner-about {
+}
 
 .our-team {
   background-color: #f5f4fa;
   width: 1600px;
   padding-top: 95px;
   padding-bottom: 95px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.section-four {
-}
-
-.title-four {
+.title-team {
   text-align: center;
   font-style: normal;
   font-weight: 700;
@@ -368,6 +332,8 @@ a {
   height: 250px;
   width: 1600px;
   background-color: #2f303a;
+  margin-left: auto;
+  margin-right: auto;
 }
 .logo-footer-span {
   color: #fff;

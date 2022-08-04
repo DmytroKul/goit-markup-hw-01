@@ -1,7 +1,8 @@
 body {
   background: #fff;
   font-family: 'Roboto', sans-serif;
-  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 :root {
@@ -15,8 +16,6 @@ body {
 
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 ul {
@@ -35,12 +34,12 @@ a {
 }
 
 .conteiner-header {
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
   align-items: center;
   height: 80px;
   width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .navbar {
@@ -56,19 +55,21 @@ a {
   line-height: 31px;
   letter-spacing: 0.03em;
   color: #2196f3;
-  text-align: center;
 }
+
 .logo-color {
   color: #000000;
 }
 
 .nav-links {
   display: flex;
+  padding: 0;
   margin-left: 93px;
 }
 
 .nav-links li {
-  margin-right: 40px;
+  margin-right: 50px;
+  display: block;
 }
 
 .nav-links li:last-child {
@@ -91,8 +92,8 @@ a {
 
 .contacts-link {
   display: flex;
-  margin-left: 344px;
-
+  margin-left: 340px;
+  padding: 0;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -123,46 +124,51 @@ a {
 /* first section */
 
 .EFFECTIVE {
+  padding-top: 200px;
+  padding-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
   width: 1600px;
-  height: 600px;
+
   background-color: #2f303a;
+  text-align: center;
 }
 
 .tittle-EFFECTIVE {
-  text-align: center;
-  padding-top: 200px;
   font-style: normal;
   font-weight: 700;
   font-size: 44px;
   line-height: 60px;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+
   color: #ffffff;
 }
 
 /* Bg */
 
 .buttonn-request {
-  position: absolute;
-  width: 216px;
-  height: 50px;
-  left: 692px;
-  top: 430px;
+  display: inline-block;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  align-items: center;
+  padding: 11px 34px;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
 }
+
+/* section */
+.section {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* section */
 
 /* Seconns section */
 
@@ -188,12 +194,9 @@ a {
   overflow: hidden;
 }
 
-.about-us-list {
+.about-list {
+  margin-top: 94px;
   display: flex;
-}
-
-.about-us li {
-  list-style-type: none;
 }
 
 .about-tittle {
@@ -205,31 +208,21 @@ a {
   text-transform: uppercase;
   color: #212121;
   margin-bottom: 10px;
-  padding-left: 15px;
+  margin-left: 20px;
 }
 
 .about-text {
+  min-width: 270px;
+  margin-left: 20px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
-  width: 270px;
-  height: 75px;
-  padding-left: 15px;
 }
 
 /* third-section */
-.conteiner-about-company {
-  width: 1200px;
-  height: 98px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 94px;
-}
 
 .conteiner-about {
   width: 1200px;
@@ -261,9 +254,6 @@ a {
 
 /* our  team */
 
-.conteiner-about {
-}
-
 .our-team {
   background-color: #f5f4fa;
   width: 1600px;
@@ -289,9 +279,7 @@ a {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 94px;
 }
 
 .box-place {
@@ -316,7 +304,7 @@ a {
   color: #212121;
 }
 
-.paragraph-our-team {
+.text-our-team {
   text-align: center;
   font-style: normal;
   font-weight: 400;
@@ -339,19 +327,21 @@ a {
   color: #fff;
 }
 .logo-footer {
+  display: inline-block;
+  margin-top: 60px;
+  margin-left: 215px;
+
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
   color: #2196f3;
-  margin-left: 215px;
-  margin-top: 85px;
 }
 
 .address {
   margin-left: 215px;
-  margin-top: 110px;
+  margin-top: 20px;
 
   font-family: 'Roboto';
   font-style: normal;
@@ -364,7 +354,8 @@ a {
 
 .contact-footer {
   list-style-type: none;
-  margin-left: 215px;
+  margin-left: 175px;
+  margin-top: 10px;
 }
 
 .contact-footer li a {
@@ -381,7 +372,7 @@ a {
 /* portfolio */
 
 .section-portfolio {
-  width: 1170px;
+  width: 1200px;
   height: 1360px;
   margin-top: 95px;
   margin-left: auto;
@@ -392,9 +383,11 @@ a {
 .find-list {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  margin: 0;
 }
 
-.title-list-find {
+.title-find {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -402,31 +395,29 @@ a {
   letter-spacing: 0.06em;
   color: #212121;
   padding-top: 20px;
-  padding-bottom: 5px;
-  padding-left: 25px;
 }
 
-.paragraph-list-find {
+.text-find {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
   color: #757575;
-  padding-left: 25px;
+
   padding-bottom: 20px;
 }
 
 .flex-element {
   width: 370px;
-  margin-right: 30px;
-  margin-bottom: 30px;
+  margin-right: 15px;
+  margin-bottom: 15px;
 }
 
 .flex-element:nth-child(3n) {
   margin-right: 0;
 }
 
-.flex-element: nth-last-child(-n + 3) {
+.flex-element:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }

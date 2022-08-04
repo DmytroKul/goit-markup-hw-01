@@ -20,6 +20,8 @@ body {
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 li,
@@ -309,7 +311,6 @@ a {
 
 /* footer */
 .footer {
-  height: 250px;
   width: 1600px;
   background-color: #2f303a;
   margin-left: auto;
@@ -346,8 +347,9 @@ a {
 
 .contact-footer {
   list-style-type: none;
-  margin-left: 175px;
+  margin-left: 215px;
   margin-top: 10px;
+  padding-bottom: 60px;
 }
 
 .contact-footer li a {
@@ -365,8 +367,6 @@ a {
 
 .section-portfolio {
   width: 1200px;
-  height: 1360px;
-  margin-top: 95px;
   margin-left: auto;
   margin-right: auto;
   background: var(--primary-bg-color);
@@ -377,6 +377,8 @@ a {
   flex-wrap: wrap;
   align-items: center;
   margin: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .title-find {

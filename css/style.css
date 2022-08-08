@@ -36,9 +36,6 @@ h6,
   margin-bottom: 0;
 }
 
-.main {
-}
-
 ul {
   list-style: none;
   margin: 0;
@@ -64,6 +61,8 @@ a {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .navbar {
@@ -79,6 +78,8 @@ a {
   line-height: 31px;
   letter-spacing: 0.03em;
   color: #2196f3;
+  width: 145px;
+  height: 31px;
 }
 
 .logo-color {
@@ -236,7 +237,7 @@ a {
   width: 270px;
 }
 
-.about-tittle {
+.about-title {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -260,14 +261,6 @@ a {
 }
 
 /* third-section */
-
-.conteiner-about {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 
 .title-shirt {
   text-align: center;
